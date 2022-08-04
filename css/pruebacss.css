@@ -1,0 +1,42 @@
+.header .header-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.header .logo {
+  padding: 25px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.header .labelLogo {
+  font-weight: bold;
+  color: black;
+  font-size: 1.45em; }
+
+.header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.header nav {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center; }
+
+.header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black; }
+
+.header a:hover {
+  color: violet; }
+
+footer {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  background-color: #efe3f5;
+  bottom: 0;
+  width: 100%; }
